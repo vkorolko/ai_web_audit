@@ -14,7 +14,7 @@ def ensure_nltk_resources():
     try:
         nltk.data.find('tokenizers/punkt')
     except LookupError:
-        print("[INFO] Завантаження ресурсу punkt для NLTK...")
+        print("[INFO]")
         nltk.download('punkt')
 
 def run_analysis(url: str):

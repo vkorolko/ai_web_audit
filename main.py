@@ -3,8 +3,6 @@ import os
 import json
 from datetime import datetime
 import nltk
-
-# on3_eeat, on4_sources, ...
 from utils.loader import fetch_html
 from analyzer import on1_qa_structure, on2_jsonld
 

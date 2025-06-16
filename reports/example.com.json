@@ -1,0 +1,16 @@
+{
+  "url": "https://example.com",
+  "timestamp": "2025-06-16T14:52:09.411611",
+  "scores": {
+    "ON1": {
+      "score": 0.0,
+      "qas_found": 0,
+      "qas_expected": 1
+    },
+    "ON2": {
+      "score": 0.0,
+      "valid_jsonld": 0,
+      "expected": 1
+    }
+  }
+}

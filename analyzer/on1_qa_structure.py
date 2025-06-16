@@ -4,7 +4,8 @@ from nltk.tokenize import PunktSentenceTokenizer, TreebankWordTokenizer
 def analyze(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     headers = soup.find_all(["h1", "h2"])
-
+    
+# Tokenizacja tekstu na zdania i słowa przy użyciu tokenizerów z biblioteki NLTK
     text = soup.get_text()
     sent_tokenizer = PunktSentenceTokenizer()
     word_tokenizer = TreebankWordTokenizer()

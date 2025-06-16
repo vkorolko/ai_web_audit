@@ -3,8 +3,9 @@ import os
 import json
 from datetime import datetime
 import nltk
-from utils.loader import fetch_html
-from analyzer import on1_qa_structure, on2_jsonld
+
+from utils.loader import fetch_html #import dla HTML
+from analyzer import on1_qa_structure, on2_jsonld 
 
 REPORT_DIR = "reports"
 

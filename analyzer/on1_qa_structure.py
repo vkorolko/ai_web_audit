@@ -6,11 +6,8 @@ def analyze(html: str) -> dict:
     headers = soup.find_all(["h1", "h2"])
 
     text = soup.get_text()
-    # Явна ініціалізація токенізаторів
     sent_tokenizer = PunktSentenceTokenizer()
     word_tokenizer = TreebankWordTokenizer()
-
-    # Спочатку розбиваємо на речення, потім на слова
     sentences = sent_tokenizer.tokenize(text)
     words = []
     for sent in sentences:

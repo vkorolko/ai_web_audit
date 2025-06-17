@@ -1,0 +1,9 @@
+beautifulsoup4
+requests
+lxml
+textstat
+nltk
+spacy
+extruct
+pyshacl
+networkx

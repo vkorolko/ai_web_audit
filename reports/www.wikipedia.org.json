@@ -1,6 +1,6 @@
 {
   "url": "https://www.wikipedia.org",
-  "timestamp": "2025-06-16T16:40:25.947438",
+  "timestamp": "2025-06-17T15:22:36.326337",
   "scores": {
     "ON1": {
       "score": 0.0,
@@ -11,6 +11,32 @@
       "score": 0.0,
       "valid_jsonld": 0,
       "expected": 1
-    }
+    },
+    "ON3": {
+      "score": 20.0,
+      "bio_word_count": 0,
+      "bio_score": 0,
+      "author_link": null,
+      "author_link_score": 0,
+      "https_score": 100
+    },
+    "ON4": {
+      "score": 100,
+      "external_links_found": 371,
+      "valid_external_links": 371,
+      "valid_urls": [
+        "https://en.wikipedia.org/",
+        "https://ja.wikipedia.org/",
+        "https://ru.wikipedia.org/",
+        "https://de.wikipedia.org/",
+        "https://es.wikipedia.org/"
+      ]
+    },
+    "ON5": {
+      "score": 0,
+      "total_images": 1,
+      "images_with_alt": 0
+    },
+    "ON6": 0
   }
 }

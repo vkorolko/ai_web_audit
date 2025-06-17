@@ -32,29 +32,28 @@ def run_analysis(url: str):
     }
 
     # ON1
-    print("[RUNNING] ON1: Frage-Antwort Struktur")
+    print("[URUCHAMIANIE] ON1: Struktura pytanie-odpowiedź")
     results["scores"]["ON1"] = on1_qa_structure.analyze(html)
 
     # ON2
-    print("[RUNNING] ON2: Strukturierte Daten")
+    print("[URUCHAMIANIE] ON2: Dane strukturalne")
     results["scores"]["ON2"] = on2_jsonld.analyze(html)
-     
+
     # ON3
-    print("[RUNNING] ON3: EEAT & Autorenschaft")
+    print("[URUCHAMIANIE] ON3: EEAT i autorstwo")
     results["scores"]["ON3"] = on3_eeat.analyze(html, url)
 
-    #ON4
-    print("[RUNNING] ON4: Quellenangaben (Sources)")
+    # ON4
+    print("[URUCHAMIANIE] ON4: Źródła zewnętrzne")
     results["scores"]["ON4"] = on4_sources.analyze(html, url)
 
-    #ON5
-    print("[RUNNING] ON5: ALT-Texte bei Bildern")
+    # ON5
+    print("[URUCHAMIANIE] ON5: Teksty ALT w obrazach")
     results["scores"]["ON5"] = on5_alt_texts.analyze(html)
 
-    #ON6
-    print("[RUNNING] ON6: Aktualität")
+    # ON6
+    print("[URUCHAMIANIE] ON6: Aktualność treści")
     results["scores"]["ON6"] = on6_freshness.analyze(html, url)
-
     save_report(url, results)
 
 def save_report(url: str, data: dict):

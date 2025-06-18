@@ -1,6 +1,6 @@
 {
   "url": "https://www.wikipedia.org",
-  "timestamp": "2025-06-17T15:22:36.326337",
+  "timestamp": "2025-06-17T23:01:09.488598",
   "scores": {
     "ON1": {
       "score": 0.0,
@@ -37,6 +37,95 @@
       "total_images": 1,
       "images_with_alt": 0
     },
-    "ON6": 0
-  }
+    "ON6": 0,
+    "ON7": 0,
+    "ON8": 65,
+    "ON9": {
+      "score": 100,
+      "load_time_seconds": 0.12,
+      "status_code": 200
+    },
+    "ON10": {
+      "score": 100,
+      "robots_txt_found": true,
+      "meta_robots_noindex": false
+    },
+    "ON11": {
+      "score": 100,
+      "lists": 7,
+      "tables": 0,
+      "blockquotes": 0,
+      "icons": 0,
+      "total_structured_elements": 7
+    },
+    "ON12": {
+      "score": 100,
+      "images": 1,
+      "videos": 0,
+      "iframes": 0,
+      "audio": 0,
+      "total_media_elements": 1
+    },
+    "ON13": {
+      "score": 100,
+      "lang": "en"
+    },
+    "ON14": {
+      "score": 100,
+      "description_length": 130,
+      "description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation."
+    },
+    "ON15": {
+      "score": 100,
+      "has_main": true,
+      "has_footer": true
+    },
+    "OFF1": {
+      "score": 100,
+      "domain": "www.wikipedia.org",
+      "results_found": 10,
+      "message": "Szukano w Google za pomocą SerpAPI"
+    },
+    "OFF2": {
+      "score": 0,
+      "knowledge_graph_found": false,
+      "title": null
+    },
+    "OFF3": {
+      "score": 100,
+      "simulated_ctr": 0.78,
+      "note": "Demo – wymaga danych z Google Search Console"
+    },
+    "OFF4": {
+      "score": 100,
+      "simulated_social_shares": 211
+    },
+    "OFF5": {
+      "score": 100,
+      "simulated_rating": 4.4,
+      "note": "Demo – integracja z Trustpilot API możliwa"
+    },
+    "OFF6": {
+      "score": 100,
+      "author_mentions": 31
+    },
+    "OFF7": {
+      "score": 0,
+      "citation_elements_found": 1
+    },
+    "OFF8": {
+      "score": 100,
+      "simulated_expert_answers": 9
+    },
+    "OFF9": {
+      "score": 0,
+      "canonical_url": null
+    },
+    "OFF10": {
+      "score": 0,
+      "api_documentation_found": false,
+      "note": "Demo – można integrować z Swagger lub Postman API"
+    }
+  },
+  "final_score": 59.4
 }

@@ -7,3 +7,5 @@ spacy
 extruct
 pyshacl
 networkx
+fuzzywuzzy
+google-search-results

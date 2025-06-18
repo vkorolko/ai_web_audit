@@ -81,7 +81,7 @@ def run_analysis(url: str):
         "scores": {}
     }
 
-    # Запускаємо аналізи, наприклад:
+    #ON1-ON15 OFF1-OFF10
     print("[URUCHAMIANIE] ON1: Struktura pytanie-odpowiedź")
     results["scores"]["ON1"] = on1_qa_structure.analyze(html)
 

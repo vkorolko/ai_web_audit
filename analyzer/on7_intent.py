@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
 
-SERPAPI_KEY = "8110e188bd4c38ac4553dadff357f1d9a84986a16fabb4564651ae018f9f9179"  # klucz API
+SERPAPI_KEY = ""  # klucz API
 
 def get_people_also_ask(query):
     url = "https://serpapi.com/search"

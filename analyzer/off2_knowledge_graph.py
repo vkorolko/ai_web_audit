@@ -3,7 +3,7 @@ def analyze(query: str) -> dict:
     params = {
         "engine": "google",
         "q": query,
-        "api_key": "8110e188bd4c38ac4553dadff357f1d9a84986a16fabb4564651ae018f9f9179"
+        "api_key": ""# klucz API
     }
 
     try:

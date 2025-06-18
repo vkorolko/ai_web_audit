@@ -1,6 +1,6 @@
 import requests
 
-PSI_API_KEY = "AIzaSyB6VQdZF6JRssZGJHlDNr0EwxQr1-neXrY" #klucz PSI_API
+PSI_API_KEY = "" #klucz PSI_API
 
 def analyze(url: str) -> int:
     api_url = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
